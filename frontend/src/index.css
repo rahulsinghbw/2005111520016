@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h1, h5, p, article {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aliceblue;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1em;
+}
+
+.train {
+    display: flex;
+    flex-direction: column;;
+    margin: 2rem;
+    padding: 1.5rem;
+}
